@@ -1,0 +1,16 @@
+[package]
+name = "masonry_macroquad"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+masonry_core = { version = "0.4.0", path = "../xilem/masonry_core", default-features = false }
+masonry_imaging = { version = "0.4.0", path = "../xilem/masonry_imaging", default-features = false }
+tracing = { version = "0.1.44", default-features = false }
+ui-events = { version = "0.3.0", default-features = false, features = [
+    "kurbo",
+] }
+accesskit = "0.24.0"
+copypasta = "0.10.2"
+miniquad = "0.4.8"
+keyboard-types = "0.8.3"
